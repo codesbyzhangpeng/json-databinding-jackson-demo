@@ -34,6 +34,11 @@ public class Student {
 	public void setActive(boolean active) {
 		this.active = active;
 	}
+
+	@Override
+	public String toString() {
+		return "Student [firstName=" + firstName + ", lastName=" + lastName + ", active=" + active + "]";
+	}
 	
 
 }
